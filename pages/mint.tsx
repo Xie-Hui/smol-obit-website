@@ -1,7 +1,7 @@
-import Link from 'next/link'
+import { NextPage } from 'next'
 import Layout from '../components/Layout'
 
-const AboutPage = () => (
+const MintPage: NextPage = () => (
   <Layout title="Mint">
     <div className="flex min-h-screen items-center justify-items-center">
       <div className="flex flex-1 flex-col">
@@ -11,4 +11,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default MintPage
