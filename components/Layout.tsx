@@ -7,7 +7,7 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'This is the default title' }: Props) => (
-  <div className="h-full min-h-screen w-full bg-gradient-to-t from-gray-900 to-gray-900 font-sans">
+  <div className="h-full min-h-screen w-full bg-gradient-to-t from-gray-900 to-gray-900 font-sans text-gray-300">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
