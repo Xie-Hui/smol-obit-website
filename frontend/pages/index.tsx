@@ -7,7 +7,7 @@ const Home: NextPage = () => (
     <div className="flex min-h-screen items-center justify-items-center">
       <div className="flex flex-1 flex-col">
         <h1 className="mt-2 mb-10 space-x-10 text-center font-mono font-mono text-4xl text-gray-100 text-shadow-3xl sm:text-5xl md:text-7xl">
-          Big Obits
+          Smol Obits
         </h1>
         <Link href="/mint">
           <button className="mt-1 mb-1 flex flex-1 items-center justify-center whitespace-nowrap font-mono text-gray-400 hover:bg-gray-700 hover:text-gray-100 hover:text-shadow-xl">
