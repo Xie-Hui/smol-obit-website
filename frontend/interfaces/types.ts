@@ -8,3 +8,7 @@ export type User = {
   id: number
   name: string
 }
+
+export interface MetamaskWindow extends Window {
+  ethereum: any
+}
